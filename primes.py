@@ -1,8 +1,8 @@
 class PrimeNumbers: # class
-    def __init__(self) -> None: # ALWAYS this is called default constructor.after creating a class this is coming as default thing
+    def __init__(self) -> None: 
         print( "Program is running")
-        self.prime_list = [] #when var is part of class in python we write before self
-        self.CountPrimes() # function name to maintain neat 
+        self.prime_list = [] 
+        self.CountPrimes() 
         print(self.prime_list)
         print("Program is ending") 
         
@@ -22,11 +22,8 @@ class PrimeNumbers: # class
                 if is_prime:
                     self.prime_list.append(i)    
             i += 1
-            # when u write word pass when u do not know your code to come here where u dont knpw how to write thisfunction
+           
 
 
-
-
-
-if __name__ == '__main__': # in python how main looks like
+if __name__ == '__main__': 
  prime_num = PrimeNumbers()
